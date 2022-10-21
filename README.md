@@ -13,18 +13,44 @@ Public welcome to my BACKUp for ENDER S-1
 
 The file that is labeled PIS.cfg is for running the input shaper that makes everything so easy. needs to be included in the printer.cfg
 
+Portable Input Shaper
 
-https://github.com/FYSETC/FYSETC-PortableInputShaper
+The start
 
+Realize the idea of Nero3D of this video: https://www.youtube.com/watch?v=W_VHbT_tsZw, thanks for his sharing.
+Advantage
 
-![image](https://user-images.githubusercontent.com/100983669/197176582-e70478c1-b394-4786-bf09-8498f1cbb966.png)
+    Base on popular RP2040 chip
 
+    Portable and you can use it on multiple Klipper firmware based 3D printer with same configuration file. Save your time.
 
-![image](https://user-images.githubusercontent.com/100983669/197176724-d0fbfae0-efb8-445b-93d9-07842e0cf77f.png)
+    Size is small and easy to dock on print head(AfterBurner, StealthBurner or even other print head) as we designed different holes on it with essential fasteners for you to install it on print head.
 
+    USB-C port
 
-![image](https://user-images.githubusercontent.com/100983669/197176933-4eccf007-d885-4709-bfa9-039d9359da97.png)
+Firmware
+menuconfig
 
+config
 
-![image](https://user-images.githubusercontent.com/100983669/197176998-23602563-0fe8-4e01-9d55-2f1c1046f3d0.png)
+Use PIS.cfg, and add it to your printer.cfg by
 
+[include PIS.cfg]
+
+how to flash
+
+    Press and hold the button
+
+    Connect it to your PC with USB-C cable
+
+    Release the button
+
+    Folder named RPI-RP2 popup, copy the klipper.uf2 to the folder
+
+    Wait for several seconds, when finished folder will closed automatically
+
+    Done
+
+Attention
+
+Make sure you flash PIS the same Klipper version as your machine. I recommend you update Klipper to latest version.
