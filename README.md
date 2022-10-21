@@ -56,6 +56,5 @@ Wait for several seconds, when finished folder will closed automatically
 
 Done
 
-https://github.com/FYSETC/FYSETC-PortableInputShaper#attention
-
+Attention
 Make sure you flash PIS the same Klipper version as your machine. I recommend you update Klipper to latest version.
