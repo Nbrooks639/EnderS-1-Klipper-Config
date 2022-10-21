@@ -15,6 +15,9 @@ The file that is labeled PIS.cfg is for running the input shaper that makes ever
 
 Portable Input Shaper
 
+![image](https://user-images.githubusercontent.com/100983669/197179734-e44c7ee7-e113-40f2-87cc-bc77cafa632e.png)
+
+
 The start
 
 Realize the idea of Nero3D of this video: https://www.youtube.com/watch?v=W_VHbT_tsZw, thanks for his sharing.
@@ -30,6 +33,9 @@ Advantage
 
 Firmware
 menuconfig
+
+![image](https://user-images.githubusercontent.com/100983669/197179809-b6dc4c4b-e027-402d-9077-a20c6a083081.png)
+
 
 config
 
